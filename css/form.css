@@ -1,0 +1,124 @@
+body {
+  background: url("../img/beach2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header {
+  background-color: #35424a;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #e8491d 3px solid;
+}
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+.container #branding img {
+  display: flex;
+  align-items: center;
+}
+
+#branding img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 50%;
+  object-fit: cover;
+
+  box-shadow: 0 10px 25px rgba(255, 255, 255, 0.6);
+}
+
+#branding h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+header #branding h1 {
+  margin: 0;
+}
+
+header nav {
+  float: right;
+  margin: 10px;
+}
+
+header .highlight,
+header .current a {
+  color: cyan;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: orange;
+  font-weight: bold;
+}
+
+.signupBox {
+  background: rgba(80, 62, 80, 0.7);
+  padding: 90px;
+  width: 250px;
+  margin-top: 90px;
+  margin-left: 180px;
+  margin: 0 auto;
+}
+form {
+  width: 240px;
+  text-align: center;
+  margin-top: -10;
+}
+input {
+  width: 240px;
+  text-align: center;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  font-size: 18px;
+  font-weight: 200px;
+  padding: 10px 0;
+  transition: border 0.5s;
+  outline: none;
+  height: 35px;
+}
+button {
+  border: none;
+  width: 190px;
+  font-size: 20px;
+  line-height: 25px;
+  padding: 10px 0;
+  border-radius: 25px;
+  cursor: pointer;
+  color: black;
+}
+h2 {
+  color: yellow;
+}
+p {
+  color: white;
+  font: bold;
+}
+a {
+  color: yellow;
+  font: bold;
+}
+
+/*footer*/
+footer {
+  clear: both;
+  width: 100%;
+  background: #e8491d;
+  text-align: center;
+  padding: 20px 0;
+  position: static;
+  color: #ffffff;
+  margin-top: 20px;
+}
